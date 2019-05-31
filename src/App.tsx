@@ -7,6 +7,7 @@ import {
   Row
 } from 'reactstrap';
 
+
 const App: React.FC = () => {
   return (
     <Container>
@@ -29,6 +30,7 @@ const App: React.FC = () => {
               <li>Code for DC Brigade Co-Captain</li>
               <li>Code4Life Instructor</li>
             </ul>
+            <a target="_blank" rel="noopener noreferrer"  href={`${process.env.PUBLIC_URL}/resume.pdf`}>Resume</a>
           </div>
         </Col>
         <Col>
@@ -41,7 +43,7 @@ const App: React.FC = () => {
           <h5>Projects Included</h5>
           <ul>
             <li>Analytics-driven content player and management system that provided insights to content developers and instructors</li>
-            <li>Continuous Delivery pipeline that combined Jenkins and docker to build, execute tests and deploy code; improved average release cadence from six weeks to three days</li>
+            <li>Implemented a continuous delivery pipeline that improved the release cadence from six weeks to daily</li>
             <li>Led the adoption of typescript as the language of choice for writing frontend applications</li>
           </ul>
           <h3>Senior Software Engineer, Learning Objects Inc.</h3>
