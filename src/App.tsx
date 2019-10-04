@@ -43,7 +43,6 @@ const App: React.FC = () => {
             </a>
           </div>
         </Col>
-
         <Col>
           <h2>Summary</h2>
           <p className="description">
