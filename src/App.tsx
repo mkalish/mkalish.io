@@ -33,6 +33,18 @@ const App: React.FC = () => {
             <a target="_blank" rel="noopener noreferrer"  href={`${process.env.PUBLIC_URL}/resume.pdf`}>Resume</a>
           </div>
         </Col>
+        <Col sm="12" md="3">
+          <h2>Skills</h2>
+          <div className="d-md-block d-none">
+            <ul className="pl-3">
+              <li>Scala</li>
+              <li>Javascript/Tyepscript</li>
+              <li>React</li>
+              <li>Docker</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+        </Col>
         <Col>
           <h2>Summary</h2>
           <p className="description">Michael Kalish is a software engineer with experience in crafting high-quality applications as well as leading high-performing, cross-functional teams.</p>
