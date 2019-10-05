@@ -16,13 +16,14 @@ const App: React.FC = () => {
             <h4 className="mb-0">Contact</h4>
             <p className="mb-0">kalishmichael@gmail.com</p>
             <p className="mb-0">(703) 463-0849</p>
-            <p className="mb-0">github.com/mkalish</p>
-            <p>linkedin.com/in/mqkalish</p>
+            <p className="mb-0"><a href="https://github.com/mkalish">github.com/mkalish</a></p>
+            <p className="mb-0"><a href="https://linkedin.com/in/mqkalish">linkedin.com/in/mqkalish</a></p>
+            <p><a href="https://angel.co/michael-kalish">angel.co/michael-kalish</a></p>
             <h4 className="mb-0">Education</h4>
             <p className="mb-0">University of Virginia 2008–2012</p>
             <p className="mb-0">BA in Computer Science</p>
             <p>BA in Cognitive Science</p>
-            <h4>Skills</h4>
+            <h4>SKILLS</h4>
             <ul className="pl-3">
               <li>Scala</li>
               <li>Javascript/Tyepscript</li>
@@ -30,12 +31,16 @@ const App: React.FC = () => {
               <li>Docker</li>
               <li>AWS</li>
             </ul>
-            <h4 className="mb-0">Volunteer</h4>
+            <h4>CERTIFICATES</h4>
+            <ul className="pl-3">
+              <li>MongoDB Certified Developer</li>
+            </ul>
+            <h4 className="mb-0">VOLUNTEER</h4>
             <ul className="pl-3">
               <li>Code for DC Brigade Co-Captain</li>
               <li>Code4Life Instructor</li>
             </ul>
-            <h2>Projects</h2>
+            <h4>PROJECTS</h4>
             <h3 className="mb-0">
               <a
                 rel="noopener noreferrer"
@@ -81,14 +86,14 @@ const App: React.FC = () => {
           </div>
         </Col>
         <Col>
-          <h2>Summary</h2>
+          <h2>SUMMARY</h2>
           <p className="description">
             Michael Kalish is a software engineer with experience crafting
             high-quality applications using a variety of technologies, such as
             Scala, React and Docker, as well as leading high-performing,
             cross-functional teams.
           </p>
-          <h2>Experience</h2>
+          <h2>EXPERIENCE</h2>
           <h3>Principal Software Engineer, Learning Objects Inc.</h3>
           <h5 className="mb-0">Washington, D.C., 2016-Present</h5>
           <p>
