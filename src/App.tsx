@@ -94,8 +94,46 @@ const App: React.FC = () => {
             cross-functional teams.
           </p>
           <h2>EXPERIENCE</h2>
+          <h3>Chief Technical Officer - Focus Consulting</h3>
+          <h5 className="mb-0">Washington, D.C., 2022-Present</h5>
+          <p>
+          Primary responsibilities include successful project delivery, leading and reviewing engineering operations as well as setting the technical direction for the organization.
+          </p>
+          <ul>
+            <li>
+            Responsible for client satisfaction and project success, including code quality and velocity metrics
+            </li>
+            <li>
+            Works as a senior contributor on one of leading paid family leave programs in the country
+            </li>
+            <li>
+            Leads a cross-functional team of engineers making contributions across a large variety of functional areas on behalf of clients
+            </li>
+            <li>
+            Designs and implements engineering processes, including technical best practices, engineer hiring/onboarding and performance reviews
+            </li>
+          </ul>
+          <h3>Lead Software Engineer - Manager, Curiosity Media</h3>
+          <h5 className="mb-0">Washington, D.C., 2019-2022</h5>
+          <p>
+          Responsible for creating high-value software solutions to assist language learners, using cutting edge technologies such as React, Node and Python. Mentors and manages multiple engineers, overseeing their career and skill development.
+          </p>
+          <ul>
+            <li>
+            Designed and implemented a new classroom product that delivers high-quality assessment features for language teachers. The new product was built using React and Node APIs in addition to a tight integration with Google Classroom
+            </li>
+            <li>
+            Made substantial contributions, both in the client code and APIs, to a vocabulary quizzing product that supports hundreds of thousands of page views per month
+            </li>
+            <li>
+            Manages multiple junior and senior engineers providing career guidance and coaching;  responsible for providing quarterly feedback
+            </li>
+            <li>
+            Responsible for creating and  maintaining high-performing code and infrastructure solutions that generate millions of page views per month
+            </li>
+          </ul>
           <h3>Principal Software Engineer, Learning Objects Inc.</h3>
-          <h5 className="mb-0">Washington, D.C., 2016-Present</h5>
+          <h5 className="mb-0">Washington, D.C., 2016-2019</h5>
           <p>
             Led cross-functional engineering teams to deliver high-value
             features for an analytics-driven learning management platform that
